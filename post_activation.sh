@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Check if CONDA_SYNC_IMPORTS is disabled
+if [[ "$CONDA_SYNC_IMPORTS" == "0" ]]; then
+    echo "Conda import sync is disabled. Skipping package checks."
+    exit 0
+fi
+
 # Directory for import tracking
 IMPORT_TRACK_DIR="$HOME/.conda_import_tracking"
 REQUIREMENTS_FILE="$IMPORT_TRACK_DIR/requirements_conda.txt"
