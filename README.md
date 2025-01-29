@@ -9,8 +9,8 @@ Since this is automatic, please do **NOT** use these scripts in conda environmen
 
 ### Clone the Repository
 ```
-git clone <repo_url>
-cd <repo_name>
+git clone https://github.com/Niamhck/conda_package_manager
+cd conda_package_manager
 ```
 
 ### Ensure Conda is Installed
