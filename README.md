@@ -2,8 +2,7 @@
 
 This repository contains scripts to **automatically track imported Python packages** from your `.py` files and **synchronize them** with a Conda environment.
 
-Since this is automatic, please do **NOT** use these scripts in conda environments you are maintaining as it could cause dependency issues. \newline
-Use these scripts in conda environments you explore or experiment in
+Since this is automatic, please do **NOT** use these scripts in conda environments you are maintaining as it could cause dependency issues. Use these scripts in conda environments you explore or experiment in. 
 
 
 ## Installation Instructions
